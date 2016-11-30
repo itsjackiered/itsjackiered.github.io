@@ -2,6 +2,21 @@ body {
 		background-color: #cccccc;
 }
 
-h1, p {
+h1  {
+		color: yellow;
+		font-size: 50px;
+
+
+}
+
+h2 { 
 		color: teal;
+		font-size: 35px;
+
+ }
+
+p {
+		color: teal;
+		font-size: 16px;
+
 }
