@@ -1,22 +1,42 @@
 body {
-		background-color: #cccccc;
+		background-color: #b6a19e;
 }
 
 h1  {
-		color: yellow;
+		font-family: Arial, sans-serif;	
+		color: #ffffff;
 		font-size: 50px;
-
-
+		font-weight: bold;
 }
 
 h2 { 
-		color: teal;
+		color: #ffffff;
 		font-size: 35px;
 
  }
 
-p {
-		color: teal;
-		font-size: 16px;
+h3 {
+		color: #ffffff;
+		font-size: 25px;
+}
 
+ #second {
+ 		font-weight: normal;
+ }
+
+p {
+		font-family: "courier new", monospace;
+		color: #ffffff;
+		font-size: 16px;
+}
+
+.important {
+		font-size: 20px;
+}
+
+a {
+		font-family: "courier new", monospace;
+		font-style: normal;
+		text-decoration: none;	
+		color: #24201f;
 }
