@@ -27,22 +27,13 @@ nav {
 }
 
 #nav-quote {
-/*		position: relative;
-		top: 50%;
-		transform: translateY(-50%);
-		font-weight: normal;
-		border-top: 1px dashed #dfdfdf;
-    	border-bottom: 1px dashed #dfdfdf;
-		padding-right: 15px;
-		padding-left: 5px;
-*/
-
-	position: relative;
-    border-top: 1px dashed #ffffff;
-    border-bottom: 1px dashed #ffffff;
-    padding: 10px;
-    font-weight: normal;
-    text-align: justify;
+		position: relative;
+	    border-top: 1px dashed #ffffff;
+	    border-bottom: 1px dashed #ffffff;
+	    padding: 10px;
+	    font-weight: normal;
+	    text-align: justify;
+	    top: 38%;
 }
 
 .menu {
@@ -68,8 +59,8 @@ h2 {
  }
 
  #burn {
- 		float: right;
- 		vertical-align: bottom;
+ 		top: 13%;
+ 		right: 20%;
  		position: relative;
  }
 
