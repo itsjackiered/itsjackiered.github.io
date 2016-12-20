@@ -1,39 +1,44 @@
+
+@import url(https://fonts.googleapis.com/css?family=Over+the+Rainbow);
+
 body {
 		background-color: #b6a19e;
-		font-family: "courier new", monospace;
+		font-family: 'Over the Rainbow', cursive;
 }
 
 #bg-top {
 		background: url("../images/gorge_out_of_focus_tall.png");
+		background-position: top;
 		background-repeat: no-repeat;
 		height: 800px;
 		width: auto;
 }
 
 nav {
-		position: relative;
+		position: fixed;
 		font-size: 25px;
-		background-image: url("../images/66aa99.png");
-		float: right;
+		background-image: url("../images/81AAC1.png");
+		right: 0;
 		font-weight: bold;
 		height: 100%;
 		width: 15%;
 }
 
 #nav-list {
-		position: relative;
+		position: fixed;
 		top: 35%;
 		transform: translateY(-50%);
 }
 
 #nav-quote {
-		position: relative;
+		position: fixed;
+		width: 13%;
 	    border-top: 1px dashed #ffffff;
 	    border-bottom: 1px dashed #ffffff;
 	    padding: 10px;
 	    font-weight: normal;
 	    text-align: justify;
-	    top: 38%;
+	    top: 75%;
 }
 
 .menu {
@@ -44,13 +49,13 @@ nav {
 
 h1  {	
 		color: #ffffff;
-		font-size: 50px;
+		font-size: 75px;
 		font-weight: bold;
 }
 
 h2 { 
 		color: #ffffff;
-		font-size: 35px;
+		font-size: 45px;
  }
 
  #in-pursuit {
@@ -59,7 +64,7 @@ h2 {
  }
 
  #burn {
- 		top: 13%;
+ 		top: 20%;
  		right: 20%;
  		position: relative;
  }
@@ -70,14 +75,18 @@ h3 {
 }
 
 p {
-		font-family: "courier new", monospace;
 		color: #ffffff;
 		font-size: 16px;
+		line-height: 1.5em;
+
 }
 
 a {
-		font-family: "courier new", monospace;
 		font-style: normal;
 		text-decoration: none;	
 		color: #ffffff;
+}
+
+#bags {
+
 }
