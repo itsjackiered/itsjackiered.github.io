@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+body {
+		background-color: #b6a19e;
+		font-family: 'Poiret One', cursive;
+}
+
+main {
+	width: 85%;
+}
+
+#bg-top {
+		background: url("../images/gorge_out_of_focus_tall.png");
+		background-position: top;
+		background-repeat: no-repeat;
+		height: 800px;
+		width: auto;
+}
+
+nav {
+		position: fixed;
+		font-size: 25px;
+		background-image: url("../images/81AAC1.png");
+		right: 0;
+		font-weight: bold;
+		height: 100%;
+		width: 15%;
+}
+
+#nav-list {
+		position: fixed;
+		top: 35%;
+		transform: translateY(-50%);
+}
+
+#nav-quote {
+		position: fixed;
+		width: 13%;
+	    border-top: 1px dashed #ffffff;
+	    border-bottom: 1px dashed #ffffff;
+	    padding: 10px;
+	    font-weight: normal;
+	    text-align: justify;
+	    top: 75%;
+}
+
+.menu {
+		list-style-type: none;
+		margin: 50px 0 50px 0;
+		
+}
+
+hr.style1 {
+	border-top: 1px dashed #8c8b8b;
+	border-bottom: 1px dashed #fff;
+}
+
+h1  {	
+		color: #ffffff;
+		font-size: 75px;
+		font-weight: bold;
+}
+
+h2 { 
+		color: #ffffff;
+		font-size: 45px;
+ }
+
+table.index {
+		width: 100%;
+		padding-right: 2%;
+		padding-left: 2%;
+		text-align: justify;
+}
+
+th.hometable{
+		text-align: center;
+		font-size: 25px;
+		color: #ffffff;
+}
+
+tr.index {
+		width: 33.33%;
+		padding-left: 2%;
+		padding-right: 2%;
+		text-align: justify;
+}
+
+td.home {
+		width: 33.333%;
+		padding-left: 2%;
+		padding-right: 2%;
+		text-align: justify;
+		vertical-align: top;
+}
+
+img.center{
+		display: block;
+		margin: 0 auto;
+}
+
+ #in-pursuit {
+ 		float: left;
+ 		top: 5%;
+ }
+
+ #burn {
+ 		top: 20%;
+ 		right: 20%;
+ 		position: relative;
+ }
+
+h3 {
+		color: #ffffff;
+		font-size: 20px;
+}
+
+p {
+		color: #ffffff;
+		font-size: 16px;
+		line-height: 1.5em;
+
+}
+
+a {
+		font-style: normal;
+		text-decoration: none;	
+		color: #ffffff;
+}
+
+#bags {
+
+}
